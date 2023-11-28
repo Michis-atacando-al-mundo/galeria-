@@ -1,0 +1,34 @@
+body{
+    background-image: radial-gradient(circle at 120.71% 50%, #0071ff 0, #006dff 7.14%, #0068ff 14.29%, #0060ff 21.43%, #0057ff 28.57%, #004bff 35.71%, #0039ff 42.86%, #4d1df3 50%, #8100e1 57.14%, #a200cd 64.29%, #bb00b8 71.43%, #cd00a1 78.57%, #da008a 85.71%, #e30072 92.86%, #e8005b 100%);
+}
+h1{
+    color: white;
+    text-shadow: 1px 2px 2 px black, 0 0 25px blue,0 0 5px blue;
+    text-align: center;
+  
+  }
+  
+  div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 , lightskyblue, 0 6px 20px 0 black;
+    float:left;
+    width: 200px;
+    background-color:pink;
+    
+  }
+  
+  div.galeria img{
+    width: 100%;
+    height: 150px;
+  
+  }
+  div.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+  
+  }
+  div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px
+  }
